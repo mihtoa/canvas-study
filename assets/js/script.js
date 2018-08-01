@@ -1,7 +1,7 @@
 let stage = document.createElement('canvas');
 stage.width = 300;
 stage.height = 300;
-stage.style.background = 'rgba(0,0,0,.8)'
+stage.style.background = 'black'
 document.body.appendChild(stage);
 
 let cnv = stage.getContext('2d');

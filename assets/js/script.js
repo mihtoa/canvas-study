@@ -17,7 +17,7 @@ let interval = 20;
 function draw() {
   cnv.fillStyle = 'black';
   cnv.strokeStyle = 'black';
-  cnv.lineWidth = 20;
+  cnv.lineWidth = 21;
   cnv.arc(w / 2, h / 2, r, 0, Math.PI * 2);
   cnv.stroke();
   cnv.fill();
